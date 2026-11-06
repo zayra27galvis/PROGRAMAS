@@ -1,0 +1,18 @@
+print("EMPRESA DE MUDANZA")
+print(" ")
+cliente = input("Nombre del cliente: ")
+origen = input("Direccion de origen: ")
+destino = input("Direccion de destino: ")
+cajas = int(input("Cantidad de cajas: "))
+pesoCaja = float(input("Peso de cada caja en kg: "))
+capacidad = float(input("Capacidad del camion en kg: "))
+pesoTotal = cajas * pesoCaja
+viajes = pesoTotal / capacidad
+print(" ")
+print("RESUMEN DE LA MUDANZA")
+print("Cliente:", cliente)
+print("Origen:", origen)
+print("Destino:", destino)
+print("Cantidad de cajas:", cajas)
+print("Peso total:", pesoTotal, "kg")
+print("Viajes calculados:", viajes)
